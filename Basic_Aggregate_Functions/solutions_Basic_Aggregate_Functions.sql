@@ -1,10 +1,5 @@
 /*620. Not Boring Movies
-Solved
-Easy
-Topics
-Companies
-SQL Schema
-Pandas Schema
+
 Table: Cinema
 
 +----------------+----------+
@@ -58,12 +53,7 @@ WHERE description != "boring" AND MOD(id, 2) <> 0
 ORDER BY rating DESC;
 
 /*1251. Average Selling Price
-Solved
-Easy
-Topics
-Companies
-SQL Schema
-Pandas Schema
+
 Table: Prices
 
 +---------------+---------+
@@ -142,12 +132,7 @@ ON p.product_id = s.product_id
 GROUP BY p.product_id;
 
 /*1075. Project Employees I
-Solved
-Easy
-Topics
-Companies
-SQL Schema
-Pandas Schema
+
 Table: Project
 
 +-------------+---------+
@@ -220,12 +205,7 @@ ON p.employee_id=e.employee_id
 GROUP BY p.project_id
 
 /*1633. Percentage of Users Attended a Contest
-Solved
-Easy
-Topics
-Companies
-SQL Schema
-Pandas Schema
+
 Table: Users
 
 +-------------+---------+
@@ -310,12 +290,7 @@ GROUP BY r.contest_id
 ORDER BY percentage DESC, contest_id ASC;
 
 /*1211. Queries Quality and Percentage
-Solved
-Easy
-Topics
-Companies
-SQL Schema
-Pandas Schema
+
 Table: Queries
 
 +-------------+---------+
